@@ -14,7 +14,7 @@ export const fonts = {
         bold: '700'
     },
     lineHeights: {
-        heading: '1.5',
-        base: '1.25'
+        heading: '1.25',
+        base: '1.6'
     }
 }

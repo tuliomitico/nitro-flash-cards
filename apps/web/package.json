@@ -12,6 +12,7 @@
     "@repo/tokens": "workspace:*",
     "@repo/ui": "workspace:*",
     "geist": "^1.1.0",
+    "lucide-react": "^0.297.0",
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18"
