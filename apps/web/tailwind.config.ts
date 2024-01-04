@@ -11,7 +11,10 @@ const config: Config = {
     colors: { ...colors, current: 'currentColor' },
     spacing,
     borderRadius: radii,
-    fontFamily: {sans: fonts.fontFamilies.default},
+    fontFamily: {
+      sans: fonts.fontFamilies.default,
+      mono: 'monospace'
+    },
     fontWeight: fonts.fontWeights,
     fontSize: fonts.fontSizes,
     lineHeight: fonts.lineHeights,
