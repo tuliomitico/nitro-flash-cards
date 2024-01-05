@@ -1,4 +1,5 @@
 import { MoveRight } from 'lucide-react'
+import { Button, ButtonText, ButtonIcon } from '@repo/ui'
 import { ProgressCircle } from '../components/progress-circle'
 
 export default function Home() {
@@ -22,10 +23,10 @@ export default function Home() {
                   <p className='text-smoke-800 text-sm leading-base'>Treine seus conhecimentos nos fundamentos do JavaScript como Arrays, variáveis, condicionais e estruturas de repetição.</p>
                 </div>
                 <div className='flex items-center justify-between'>
-                  <a href='#' className='py-3 px-5 flex items-center gap-3 font-bold text-sm bg-marine-500 rounded-md text-mirage-50 hover:bg-marine-400 transition-colors'>
-                    Acessar coleção
-                    <MoveRight className='w-5 h-5' />
-                  </a>
+                  <Button>
+                    <ButtonText>Acessar coleção</ButtonText>
+                    <ButtonIcon icon={MoveRight} />
+                  </Button>
                   <div className='flex items-center gap-2'>
                     <div className='w-6 h-6'>
                       <ProgressCircle progress={50} />
